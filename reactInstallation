@@ -1,0 +1,38 @@
+Installation react:
+
+1. NodeJS from Official site or Sparsh Downloads
+2. C:\Users\userName>npm install babel -g
+3. C:\Users\userName>npm install webpack -g
+4. C:\Users\userName>npm install webpack-dev-server -g
+
+create a folder on desktop named reactdemos.
+5. C:\Users\userName>Desktop\reactdemos>npm init
+ 
+ npm init command will create the package.json file 
+ Just replace for 'scripts'  for package.json as below:
+"scripts": { 
+"start": "webpack-dev-server --hot"
+}
+
+
+6. C:\Users\userName>Desktop\reactdemos>npm install webpack
+7. C:\Users\userName>Desktop\reactdemos>npm install webpack-dev-server
+
+8. C:\Users\userName>Desktop\reactdemos>npm install react --save
+9. C:\Users\userName>Desktop\reactdemos>npm install react-dom --save
+10. C:\Users\userName>Desktop\reactdemos>npm install babel-core
+11. C:\Users\userName>Desktop\reactdemos>npm install babel-loader
+12. C:\Users\userName>Desktop\reactdemos>npm install babel-preset-react
+13. C:\Users\userName>Desktop\reactdemos>npm install babel-preset-es2015
+
+
+Execution:
+1.Copy  the shared demo folder (Eg. folder named '1') to reactdemos folder.
+2.Replace the package.json inside this with  the package.json you have created inside reactdemos folder
+
+To run the demo,  from node command prompt:
+1.cd <path of reactdemos folder>
+2.Type D: and press enter
+3.Type 'npm start' and enter
+4.To check Output from  browser, type localhost:7777 and hit enter.
+
